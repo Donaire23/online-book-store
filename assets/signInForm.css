@@ -4,6 +4,7 @@
   align-items: center;
   margin: 0 20px 0 20px;
   display: none;
+  box-sizing: border-box;
 }
 .first-nav i {
   margin: 20px;
@@ -135,6 +136,7 @@
  }
  .columns {
   display: flex;
+  box-sizing: border-box;
  }
  .summary-details {
   display: flex;
@@ -255,13 +257,13 @@
 }
 @media (max-width: 1280px) and (min-width: 960px) {
   .search-bar {
-    width: 800px;
+    width: 100%;
     height: auto;
     flex-direction: column;
     align-content: center;
   }
   .footer {
-    width: 800px;
+    width: 100%;
     display: flex;
   }
   .social-icons {
@@ -277,40 +279,66 @@
 
 @media (max-width: 959px) and (min-width: 300px) {
   .search-bar {
-    width: 800px;
-    height: auto;
-    flex-direction: column;
-    align-content: center;
+    display: none;
   }
-  .checkoutForm-card {
-    height: auto;
-  }
-  .columns {
+  .first-nav {
     display: flex;
-    flex-direction: column;
+    font-size: 68%;
+  }
+  .summary-details {
+    display: none;
+  }
+  .details {
+    display: flex;
+  }
+  .left-text {
+    display: none;
+  }
+  .right-text {
+    display: none;
   }
   .shoes-details {
-    flex-direction: column;
-    height: auto;
-    margin: 0 auto;
-  }
-  .payment-details {
-    height: auto;
-  }
-  
-  .footer {
-    width: 800px;
-    display: flex;
-    height: auto;
-  }
-  .social-icons {
-    display: flex;
     width: 100%;
     height: auto;
-    margin: 0 auto;
-    justify-content: center;
-    text-align: center;
-    padding: 20px 0 20px 0;
   }
-
+  .payment-details{
+    width: 100%; 
+  }
+  .payment-options {
+   width: 80%;
+   margin: 0 auto;
+  }
+  .paypal-method img {
+    width: 70%;
+  }
+  
+  .buy-button {
+    width: auto;
+  }
+  .buy-button input {
+    width: auto;
+  }
+  .columns {
+    height: auto;
+    flex-direction: column;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  ul li {
+    display: flex;
+    justify-content: center;
+  }
+  .checkoutForm-card {
+    width: 100%;
+    height: auto;
+  }
+  .address-postalcode input {
+    width: 100%;
+  }
+  .social-icons  {
+    display: flex ;
+    justify-content: center;
+  }
 }
