@@ -284,6 +284,7 @@
   .first-nav {
     display: flex;
     font-size: 68%;
+    flex-direction: column;
   }
   .summary-details {
     display: none;
@@ -319,6 +320,7 @@
     width: auto;
   }
   .columns {
+    
     height: auto;
     flex-direction: column;
   }
