@@ -1,0 +1,316 @@
+.first-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 0 20px;
+  display: none;
+}
+.first-nav i {
+  margin: 20px;
+}
+.book-logo img {
+  width: 100px;
+}
+.search-bar{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.book-logo img {
+  width: 100px;
+}
+.books-genre a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+.books-genre a:hover {
+  opacity: 0.5;
+}
+.books-genre a:active {
+  opacity: 0.3;
+}
+ .checkoutForm-card {
+  margin: 20px auto;
+  width: 800px;
+  height: 809px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+ }
+ .order-text {
+  margin-left: 40px;
+ }
+ .num2, .num3 {
+  background-color: #F7F7F7;
+  padding: 10px 15px;
+  border-radius: 50px;
+ }
+ .shoes-details {
+  width: 450px;
+  height: 535px;
+ }
+ .payment-details {
+  width: 450px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: 1px auto;
+  box-sizing: border-box;
+  background-color: #F7F7F7;;
+ }
+ .payment-text {
+  font-size: 25px;
+  font-weight: 550;
+  display: block;
+ }
+ .payment-details-text {
+  display: block;
+  text-align: left;
+  width: 300px;
+ }
+ .details-order {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+ }
+ .email-text, .card-details-text, .card-holder-text, .billing-text {
+  margin: 10px;
+  font-weight: 600;
+ }
+ .image img {
+  width: 100px;
+ }
+ .address-postalcode {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.subtotal, .value-added-tax, .total {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+ #emailAddress, #cardNumber, #cardHolder, #billingAddress{
+  margin: 10px;
+  padding: 15px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+ }
+ #address, #postalCode {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+ }
+ .buy-button {
+  margin: 20px auto;
+ }
+ .buy-button input {
+  width: 400px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: opacity 0.2s;
+ }
+ .buy-button input:hover {
+  opacity: 0.5;
+ }
+ .email-address {
+  display: block;
+ }
+ .details {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
+  margin-top: 2px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+ }
+ .shoes-details, .payment-options, .payment-details {
+  border: 1px solid rgba(0, 0, 0, 0.2)
+ }
+ .columns {
+  display: flex;
+ }
+ .summary-details {
+  display: flex;
+  justify-content: space-around;
+ }
+ .summary-order {
+  display: block;
+  text-align: left;
+  width: 300px;
+  
+ }
+ .summary-order .summary {
+  display: block;
+  font-size: 20px;
+  font-weight: 550;
+ }
+ .summary-order .check-your-item {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+ }
+ 
+ .image {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+ }
+ .shoes-details {
+  
+ }
+ .left-text, .right-text span{
+  margin: 10px 10px;
+ }
+ .available-text {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+ }
+ .right-text i {
+  color: green;
+ }
+ .gcash-method img, .bdo-method img, .paypal-method img{
+  width: 80px;
+}
+.cod-method i {
+  font-size: 45px;
+}
+.gcash-method, .bdo-method, .paypal-method, .cod-method{
+  display: flex;
+}
+.payment-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.footer-nav {
+  width: 800px;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 200px;
+  
+}
+.footer-navlist  li a{
+ color: white;
+ text-decoration: none;
+ font-size: 12px;
+}
+.footer-nav {
+  margin: 0 auto;
+}
+.footer-navlist {
+
+  padding-bottom: 50px;
+}
+.footer-nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: auto;
+  color: white;
+}
+.footer-navlist li a {
+  color: white;
+}
+.footer-navlist li {
+  list-style-type: none;
+}
+.social-icons {
+  display: flex;
+  margin: 30px 50px;
+  
+}
+.social-icons i {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  align-self: center;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.80);
+  border-radius: 20px;
+  padding: 10px;
+}
+.social-icons a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.social-icons i:hover {
+  background-color: rgba(255, 255, 255, 0.10);
+}
+@media (max-width: 1280px) and (min-width: 960px) {
+  .search-bar {
+    width: 800px;
+    height: auto;
+    flex-direction: column;
+    align-content: center;
+  }
+  .footer {
+    width: 800px;
+    display: flex;
+  }
+  .social-icons {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+}
+
+@media (max-width: 959px) and (min-width: 300px) {
+  .search-bar {
+    width: 800px;
+    height: auto;
+    flex-direction: column;
+    align-content: center;
+  }
+  .checkoutForm-card {
+    height: auto;
+  }
+  .columns {
+    display: flex;
+    flex-direction: column;
+  }
+  .shoes-details {
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+  }
+  .payment-details {
+    height: auto;
+  }
+  
+  .footer {
+    width: 800px;
+    display: flex;
+    height: auto;
+  }
+  .social-icons {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+
+}
